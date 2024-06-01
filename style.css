@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0e4d7;
+}
+
+#score {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#game-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#word-search {
+    display: grid;
+    gap: 5px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#word-search div {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#word-search div.selected {
+    background-color: #ffeb3b;
+}
+
+#word-search div.found {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+#word-list {
+    margin-top: 20px;
+}
+
+#words {
+    list-style: none;
+    padding: 0;
+}
+
+#words li {
+    font-size: 18px;
+    margin: 5px 0;
+}
